@@ -1,0 +1,79 @@
+{
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false,
+  "workbench.colorTheme": "Saklash Theme (Soothing)",
+  "workbench.iconTheme": "vscode-icons",
+  "[html]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.guides.indentation": false,
+  "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "terminal.integrated.automationProfile.windows": {},
+  // D2Coding
+  "editor.fontFamily": "'D2Coding'",
+  "editor.fontLigatures": true,
+
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#D5C4A1",
+    "terminalCursor.background": "#D5C4A1",
+    "terminalCursor.foreground": "#D5C4A1",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#83A598",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#83A598",
+    "terminal.ansiBrightCyan": "#8EC07C",
+    "terminal.ansiBrightGreen": "#B8BB26",
+    "terminal.ansiBrightMagenta": "#D3869B",
+    "terminal.ansiBrightRed": "#FB4934",
+    "terminal.ansiBrightWhite": "#FBF1C7",
+    "terminal.ansiBrightYellow": "#FABD2F",
+    "terminal.ansiCyan": "#8EC07C",
+    "terminal.ansiGreen": "#B8BB26",
+    "terminal.ansiMagenta": "#D3869B",
+    "terminal.ansiRed": "#FB4934",
+    "terminal.ansiWhite": "#D5C4A1",
+    "terminal.ansiYellow": "#FABD2F"
+  },
+
+  // 기본 터미널 설정
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",  // 내장 터미널에서 zsh 사용
+  "terminal.external.osxExec": "/Applications/iTerm.app",  // 외부 터미널로 iTerm 지정
+  "terminal.explorerKind": "external",  // 외부 터미널로 열기
+
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  }
+}
