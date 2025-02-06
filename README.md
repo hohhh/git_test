@@ -122,7 +122,7 @@
 
 ---
 
-작성자
+## 작성자
 이름: [홍성현]<br>
 연락처: [goddamncool@naver.com]<br>
 GitHub: [https://github.com/hohhh/git_test.git]<br>
